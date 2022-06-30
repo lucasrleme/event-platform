@@ -6,7 +6,7 @@ import classNames from 'classnames';
 
 interface LessonProps {
   title: string;
-  slug: string;
+  slug: any;
   availableAt: Date;
   type: 'live' | 'class';
 }
